@@ -1,39 +1,151 @@
 
-## Collaborative Whiteboard - Socket.IO 
+  
 
-A simple collaborative whiteboard using socketIO with drawing tools which enables multiple users to draw at the same time. Open links in two seperate tabs in your browser or Open link in another computer try drawing simultaneously in both. 
+<!-- PROJECT LOGO -->
 
-Cool, isn't ?
+<br />
 
-Checkout the Whiteboard Working Live URL - https://whiteboard-socketio.herokuapp.com/
+<div align="center">
 
-## How to use
 
-This is built using Nodejs Server to run this git clone the repo. 
+<img src="https://github.com/abhishekpawan/A-Collaborative-WhiteBoard/blob/main/public/img/collaborativewhiteboardtitle.png" alt="collaborativewhiteboardtitle" width="75%">
+
+
+
+  
+
+<h3 align="center">A Collaborative Whiteboard</h3>
+
+  
+
+<p align="center">
+<a  href="https://collaborative-wb-cn-project.herokuapp.com/">View Demo</a> | <a  href="https://github.com/abhishekpawan/A-Collaborative-WhiteBoard/issues">Report Bug</a>
+</p>
+
+</div>
+
+  
+  
+
+</p>
+
+  
+  
+
+<!-- ABOUT THE PROJECT -->
+
+# About The Project
+
+  
+
+<img src="https://github.com/abhishekpawan/A-Collaborative-WhiteBoard/blob/main/public/img/collaborativewhiteboardmockup.png" alt="collaborativewhiteboardmockup" width="75%">
+
+A collaborative whiteboard using socket.IO with drawing tools like pencil, rectangle, circle also you can type with texts. In which several participants can use the whiteboard at the same time.TO use this whiteboard open the links in two different tabs in your browser or share the same link with anyone else and start using it.
+
+  
+### Features of this white board
+
+-   Draw on the whiteboard and all the other users present on the same url will see you drawings live.
+-   Ability for each user to use their seperate drawing tool.
+-   Choose Colours, fonts, fontsizes and thinkness.
+-  You can draw with pencil, type, make rectangle and circle, and there is one button to clear all
+- For Erasing, you can choose the pencil tool and select the color of it as white and adjust the thickness according to. Then you can use this as an erasing tool.
+
+  
+
+## 🏗️: Built With
+
+  
+- Node.js
+- Express.js
+- Socket.io
+- JavaScript
+
+  
+  
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+  
+
+You need to make an `.env` file and add the port number on which you want to run the server locally.
+For Example,, If you want to run the server on `http://localhost:3000`, Add the following line in the `.env` file.
+```
+PORT = 3000
+```
+
+  
+
+## Installation
+### Clone the repo
+```
+git clone https://github.com/abhishekpawan/A-Collaborative-WhiteBoard
+```
+### [](https://github.com/abhishekpawan/weather-forecast-web-app#to-install-all-the-dependencies)To Install all the dependencies
 
 ```
-$ npm install
+npm install
+```
+### Enter your PORT number  in `.env`
+```
+PORT = 3000
+```
+### Start the Server
+
+
+```
+npm start
 ```
 
-```
-$ node index.js
-```
+<!-- CONTRIBUTING -->
 
-And open `http://localhost:3001` in browser. Optionally, specify a port by supplying the `PORT` env variable.
+## Contributing
 
-> Note : Enable heroku features:enable http-session-affinity in your instance while deploying to heroku. This is necessary to open communication ports for web sockets.
+  
 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Features
+  
 
-- Draw on the whiteboard and all other users will see you drawings live.
-- Ability for each user to use their seperate drawing tool.
-- Choose Colours, fonts, fontsizes and thinkness.
+1. Fork the Project
 
-Thanks and credits to [Socket.IO](https://socket.io/) :yellow_heart:
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 
-PS: Previous sessions are not saved on the server, it will not be available for newly joined. Save sessions if you want. Since listening only to mouse events it will not work on mobile touch. Add listen for touch events if you want. 😊
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
+5. Open a Pull Request
+
+  
+  
+
+<!-- LICENSE -->
 
 ## License
 
-[MIT](https://github.com/devansvd/whiteboard-socketio/blob/master/LICENSE.md)
+  
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+  
+
+<!-- CONTACT -->
+
+## Contact
+
+  
+
+##### Check my portfolio: [abhishekpawan.me](https://abhishekpawan.me) 😁
+
+##### LinkedIn: [Abhishek Pawan](https://linkedin.com/in/abhishekpawan)
+
+##### Twitter: [@non_altruistic](https://twitter.com/non_altruistic)
+
+##### Mail: abhishekpawan297@gmail.com
+
+  
+
+### Made with my love of development ❤
