@@ -37,9 +37,11 @@
 # About The Project
 
   
+<div align="center">
 
 <img src="https://github.com/abhishekpawan/A-Collaborative-WhiteBoard/blob/main/public/img/collaborativewhiteboardmockup.png" alt="collaborativewhiteboardmockup" width="75%">
 
+  </div>
 A collaborative whiteboard using socket.IO with drawing tools like pencil, rectangle, circle also you can type with texts. In which several participants can use the whiteboard at the same time.TO use this whiteboard open the links in two different tabs in your browser or share the same link with anyone else and start using it.
 
   
